@@ -5,6 +5,22 @@
         <meta name="viewport" content="initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="assets/player/styles.css">
+        <style>
+            @media (prefers-reduced-motion: reduce) {
+              html:focus-within {
+               scroll-behavior: auto;
+              }
+
+              *,
+              *::before,
+              *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+              }
+            }
+        </style>
     </head>
     <body id="body" bgcolor="black">
         <div id="stageArea">
